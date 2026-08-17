@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "go-boilerplate",
+      "name": "go-new",
       "devDependencies": {
         "turbo": "^2.5.5",
         "typescript": "^5.8.3",

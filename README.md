@@ -18,7 +18,7 @@ A production-ready monorepo template for building scalable web applications with
 ## Project Structure
 
 ```
-go-boilerplate/
+go-new/
 ├── apps/backend/          # Go backend application
 ├── packages/         # Frontend packages (React, Vue, etc.)
 ├── package.json      # Monorepo configuration
@@ -39,8 +39,8 @@ go-boilerplate/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sriniously/go-boilerplate.git
-cd go-boilerplate
+git clone https://github.com/sriniously/go-new.git
+cd go-new
 ```
 
 2. Install dependencies:
