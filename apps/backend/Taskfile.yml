@@ -23,8 +23,13 @@ tasks:
     cmds:
     - go run ./cmd/go-new
 
+  build:
+    desc: build the cmd/go-new application
+    cmds:
+    - go build -o bin/go-new ./cmd/go-new
+
   migrations:new:
-    desc: create a new database migration
+    desc: create a new database migration - go build -o bin/go-new ./cmd/go-new
     vars:
       NAME: '{{.name | default ""}}'
     cmds:

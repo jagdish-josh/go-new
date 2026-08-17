@@ -56,5 +56,7 @@ func NewRouter(s *server.Server, h *handler.Handlers, services *service.Services
 	// register versioned routes
 	router.Group("/api/v1")
 
+	router.GET("/api/v1/health", h.Health.CheckHealth)
+
 	return router
 }
