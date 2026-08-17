@@ -8,14 +8,14 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/sriniously/
-	"github.com/sriniously/go-newl/database"
-	"github.com/sriniously/go-newl/handler"
-	"github.com/sriniously/go-newl/logger"
-	"github.com/sriniously/go-newl/repository"
-	"github.com/sriniously/go-newl/router"
-	"github.com/sriniously/go-newl/server"
-	"github.com/sriniously/go-newl/service"
+	"github.com/sriniously/go-new/internal/config"
+	"github.com/sriniously/go-new/internal/database"
+	"github.com/sriniously/go-new/internal/handler"
+	"github.com/sriniously/go-new/internal/logger"
+	"github.com/sriniously/go-new/internal/repository"
+	"github.com/sriniously/go-new/internal/router"
+	"github.com/sriniously/go-new/internal/server"
+	"github.com/sriniously/go-new/internal/service"
 )
 
 const DefaultContextTimeout = 30
